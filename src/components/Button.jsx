@@ -1,4 +1,4 @@
-export const Button = ({ className="", size="default" , children }) => { 
+export const Button = ({ className="", size="default" , children, href, onClick }) => {
     const baseClasses = "relative overflow-hidden rounded-full font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-primary text-primary-foreground bg-primary hover:bg-primary/90 shadow-primary/25"; 
 
     const sizeClasses = {
@@ -7,11 +7,23 @@ export const Button = ({ className="", size="default" , children }) => {
         lg:"px-8 py-4 text-lg"
     };
     const classes = `${baseClasses} ${sizeClasses[size]} ${className}`;  
-    return (
-        <button className={classes}>
+    const content = (
             <span className="relative flex items-center justify-center gap-2">
                 {children}
             </span>
+    );
+
+    if (href) {
+        return (
+            <a href={href} className={classes} onClick={onClick}>
+                {content}
+            </a>
+        );
+    }
+
+    return (
+        <button className={classes} onClick={onClick}>
+            {content}
         </button>
     );
-};    
+};

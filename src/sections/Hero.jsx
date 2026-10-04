@@ -5,23 +5,25 @@ import { ArrowRight, Download, ChevronDown } from "lucide-react";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const skills = [
-"React",
-  "Next.js",
-  "TypeScript",
+  "JavaScript",
+  "React",
   "Node.js",
+  "PHP",
+  "Laravel",
+  "Angular",
   "MySQL",
   "MongoDB",
-  "Power BI",
-  "Python",
-  "PHP",
-  "JavaScript",
-  "Java",
-  "Docker",
   "AWS",
+  "Python",
+  "Power BI",
+  "TypeScript",
+  "Next.js",
+  "Java",
   "Tailwind CSS",
   "Figma",
   "Git",
-  "GitHub Actions",
+  "GitHub",
+
 ];
 
 export const Hero = () => {
@@ -76,9 +78,7 @@ export const Hero = () => {
                         </span> 
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                            Hi, I'm Pasan Rajapaksha — a Fullstack Developer specializing in
-                            MERN, PHP, MySQL, CSS, JavaScript & frameworks like Laravel & Angular. I build scalable, performant web
-                            applications that users love.
+                            Hi, I'm Pasan Rajapaksha — an IT undergraduate passionate about building modern web applications, working with cloud technologies, and turning ideas into practical digital solutions.
                         </p>
                     </div>
 
@@ -97,13 +97,15 @@ export const Hero = () => {
                     <div  className="flex items-center gap-4 animate-fade-in animation-delay-400">
                         <span className="text-sm text-muted-foreground">Follow me on:</span>
                         {[
-                            { icon: FaGithub, href: "#" },
-                            { icon: FaLinkedin, href: "#" },
-                            { icon: FaFacebook, href: "#" },
+                            { icon: FaGithub, href: "https://github.com/PasanTR887" },
+                            { icon: FaLinkedin, href: "https://www.linkedin.com/in/pasan-rajapaksha-705304249" },
+                            { icon: FaFacebook, href: "https://web.facebook.com/pasan.tharindya" },
                         ].map((social, idx) => (
                             <a 
                                 key={idx} 
                                 href={social.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                             >
                                     {<social.icon className="h-5 w-5" />} 
@@ -123,7 +125,7 @@ export const Hero = () => {
                         />
                         <div className="relative glass rounded-3xl p-2 glow-border"> 
                             <img 
-                                src="/profile-photo.jpg" 
+                                src="/profile-photo.png" 
                                 alt="Pasan Rajapaksha" 
                                 className="rounded-2xl w-full aspect-[4/5] object-cover"
                             />
@@ -138,9 +140,9 @@ export const Hero = () => {
                             </div>
                             {/* Stats Badge */}
                             <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                            <div className="text-2xl font-bold text-primary">5+</div>
-                            <div className="text-xs text-muted-foreground">
-                                Years Exp.
+                            <div className="text-2xl font-bold text-primary">IT</div>
+                            <div className="text-xs">
+                                Undergraduate
                             </div>
                             </div>
                         </div>
@@ -166,10 +168,7 @@ export const Hero = () => {
                 </div>
             </div>
         </div>
-            <div
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 
-            animate-fade-in animation-delay-800"
-            >
+            <div className="relative z-10 mt-4 mb-8 flex justify-center animate-fade-in animation-delay-800">
                 <a
                 href="#about"
                 className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"

@@ -4,40 +4,39 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Task Management Application",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A full-stack task management application built to organize tasks and workflows through a responsive frontend, backend API, and database.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    tags: ["Angular","Laravel","PHP","MySQL"],
+    link: "https://drive.google.com/drive/folders/1n384OAnjMgWwkmaOgoUFAVpkBI5qsWOG?usp=sharing",
+    github: "https://github.com/PasanTR887/task-management-system.git",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Power BI Sales Analytics Dashboard",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "An interactive sales analytics dashboard that transforms raw data into meaningful insights through KPIs, trends, regional analysis, and product performance.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["Power BI", "DAX", "Power Query", "Data Analysis"],
+    link: "https://drive.google.com/drive/folders/1kvKMpkdPvcJ4vQJbl2e3KyYimYPUn-Mx?usp=sharing",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Crushify — Dating & Matchmaking Platform",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A web-based matchmaking platform featuring user profiles, matching, messaging, notifications, and database-driven interactions.",
     image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+    tags: ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     link: "#",
-    github: "#",
+    github: "https://github.com/PasanTR887/Crushify.git",
   },
   {
-    title: "Project Management Tool",
+    title: "FEETsy.com — Online Shoe Store",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A responsive e-commerce interface designed for an online shoe store, focusing on product presentation, navigation, and a clean shopping experience.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    link: "https://drive.google.com/drive/folders/1hxjrcHrNp7wrTin9WB_TCwXdtdhMcBXC?usp=sharing",
+    github: "https://github.com/PasanTR887/FEETsy.com.git",
   },
 ];
 

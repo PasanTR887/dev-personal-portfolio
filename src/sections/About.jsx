@@ -1,28 +1,28 @@
 import React from "react";
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { BrainCircuit, ChartNoAxesCombined, Code2, PanelsTopLeft } from "lucide-react";
 
 const highlights = [
     {
         icon: Code2,
-        title: "Clean Code",
-        description: "I write clean, maintainable, and efficient code that follows best practices and coding standards.",
+        title: "Full-Stack Development",
+        description: "Building complete web applications from responsive frontends to backend APIs and database-driven systems.",
     },
     {
-        icon: Rocket,
-        title: "Performance",
+        icon: ChartNoAxesCombined,
+        title: "Data Analysis",
         description:
-        "Optimizing for speed and delivering lightning-fast user experiences.",
+        "Exploring data, uncovering meaningful insights, and creating clear visualizations and dashboards with Power BI and Python.",
     },
     {
-        icon: Users,
-        title: "Collaboration",
-        description: "Working closely with teams to bring ideas to life.",
+        icon: PanelsTopLeft,
+        title: "UI/UX Design",
+        description: "Designing clean and intuitive interfaces with a focus on usability, visual hierarchy, and purposeful user experiences.",
     },
     {
-        icon: Lightbulb,
-        title: "Innovation",
+        icon: BrainCircuit,
+        title: "Problem Solving",
         description:
-        "Staying ahead with the latest technologies and best practices.",
+        "Breaking down complex challenges, exploring practical solutions, and continuously improving through hands-on projects.",
     },
 ];
 
@@ -40,39 +40,35 @@ export const About = () => {
                 </div>
 
                 <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-                    Building the future,
+                    Turning Ideas Into,
                     <span className="font-serif italic font-normal text-white">
                         {" "}
-                        one component at a time. 
+                        Digital Experiences.
                     </span>
                 </h2>
 
                 <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
                     <p>
-                        I'm a passionate software engineer with over 5 years of
-                        experience crafting digital products that make a difference. My
-                        journey started with a curiosity for how things work on the web,
-                        and it has evolved into a deep expertise in modern frontend
-                        technologies.
+                        I'm Pasan Rajapaksha, an Information Technology undergraduate with a primary focus on Full-Stack Development. 
+                        I enjoy turning ideas into complete web applications, from responsive interfaces to backend APIs and database-driven solutions. 
+                        I've worked with JavaScript, React, Angular, Node.js, Laravel, PHP, MySQL, and MongoDB.
                     </p>
                     <p>
-                        I specialize in React, Next.js, and TypeScript, building
-                        everything from sleek landing pages to complex enterprise
-                        applications. My approach combines technical excellence with a
-                        keen eye for design and user experience.
+                        Alongside development, I'm passionate about Data Analysis, using Power BI, Power Query, DAX, and Python to 
+                        explore data, uncover insights, and create meaningful visualizations that support better decisions.
                     </p>
                     <p>
-                        When I'm not coding, you'll find me exploring new technologies,
-                        contributing to open-source projects, or sharing knowledge with
-                        the developer community.
+                        I also enjoy exploring UI/UX design with Figma, focusing on clean, intuitive, and purposeful experiences. 
+                        Alongside my development work, I have a practical understanding of AWS, Docker, networking, and cloud fundamentals, 
+                        giving me a broader perspective on how modern applications are built and delivered.
                     </p>
                 </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "My mission is to build meaningful digital solutions that combine 
+                strong development, thoughtful design, and data-driven thinking 
+                to solve real-world problems."
               </p>
             </div>
             </div>
